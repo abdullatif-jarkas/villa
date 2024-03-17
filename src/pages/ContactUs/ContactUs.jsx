@@ -6,6 +6,8 @@ import ContactImg1 from './../../assets/imgs/phone-icon.png'
 import ContactImg2 from './../../assets/imgs/email-icon.png'
 import './ContactUs.css'
 import Map from "../../components/Map/Map"
+import Footer from "../../components/common/Footer/Footer"
+import NavBar from "../../components/common/NavBar/NavBar"
 
 const ContactUs = () => {
   return (

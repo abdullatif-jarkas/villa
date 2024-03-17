@@ -9,6 +9,8 @@ import propertyImg6 from './../../assets/imgs/property-06.jpg'
 import PropertyCard from '../../components/PropertyCard/PropertyCard'
 import Tabs from '../../components/Tabs/Tabs'
 import { useState } from 'react'
+import Footer from '../../components/common/Footer/Footer'
+import NavBar from '../../components/common/NavBar/NavBar'
 
 const Properties = () => {
   const data = [

@@ -9,6 +9,8 @@ import './Home.css'
 import BestDeal from "../../components/main/BestDeal/BestDeal"
 import Properties from "../../components/main/Properties/Properties"
 import Contact from "../../components/main/Contact/Contact"
+import NavBar from "../../components/common/NavBar/NavBar"
+import Footer from "../../components/common/Footer/Footer"
 
 const Home = () => {
 

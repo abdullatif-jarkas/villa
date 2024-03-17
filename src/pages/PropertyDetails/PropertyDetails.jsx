@@ -8,6 +8,8 @@ import InfoImg3 from './../../assets/imgs/info-icon-03.png'
 import InfoImg4 from './../../assets/imgs/info-icon-04.png'
 import MainImg from './../../assets/imgs/single-property.jpg'
 import Accordion from "../../components/Accordion/Accordion"
+import NavBar from "../../components/common/NavBar/NavBar"
+import Footer from "../../components/common/Footer/Footer"
 
 const PropertyDetails = () => {
 

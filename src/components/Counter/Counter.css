@@ -30,3 +30,8 @@
   font-weight: 600;
   line-height: 28px;
 }
+@media screen and (width < 576px) {
+  .counter::after {
+    right: -15px;
+  }
+}

@@ -11,6 +11,7 @@ import Properties from "../../components/main/Properties/Properties"
 import Contact from "../../components/main/Contact/Contact"
 import NavBar from "../../components/common/NavBar/NavBar"
 import Footer from "../../components/common/Footer/Footer"
+import SubHeader from "../../components/SubHeader/SubHeader"
 
 const Home = () => {
 
@@ -37,6 +38,8 @@ const Home = () => {
 
   return (
     <div className="home">
+      <NavBar />
+      <SubHeader />
       <ImageSlider imgUrls={data}/>
       <BestAppartment />
       <VideoView />

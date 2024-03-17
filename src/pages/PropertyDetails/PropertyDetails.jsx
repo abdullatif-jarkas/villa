@@ -50,6 +50,7 @@ const PropertyDetails = () => {
 
   return (
     <div className="property-details">
+      <NavBar />
       <Hero title="/  Single Property" text="Single Property" />
       <div className="container">
         <div className="row">

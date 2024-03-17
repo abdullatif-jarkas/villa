@@ -158,6 +158,7 @@ const Properties = () => {
 
   return (
     <div className='properties-page'>
+      <NavBar />
       <Hero title="/ Properties" text="Properties" />
       <div className="container">
         <Tabs data={tabsData} filterItems={filterItems} />

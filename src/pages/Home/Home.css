@@ -8,6 +8,11 @@
   gap: 3rem;
   margin-top: 125px;
 }
+@media screen and (width < 576px) {
+  .counter-container {
+    margin-top: 175px;
+  }
+}
 @media screen and (width < 992px) {
   .counter-container {
     flex-direction: column;

@@ -12,6 +12,7 @@ import NavBar from "../../components/common/NavBar/NavBar"
 const ContactUs = () => {
   return (
     <div className="contact-us">
+      <NavBar />
       <Hero title="/  Contact Us" text="Contact Us" />
       <div className="container">
         <div className="row">

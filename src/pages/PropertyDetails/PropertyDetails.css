@@ -1,3 +1,6 @@
+.property-details nav {
+  top: 0;
+}
 .property-details .row {
   display: flex;
   margin-top: 120px;

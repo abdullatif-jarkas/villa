@@ -1,3 +1,6 @@
+.contact-us nav {
+  top: 0;
+}
 .contact-us .container .row {
   display: flex;
   margin-top: 120px;
@@ -22,6 +25,9 @@
 }
 
 @media screen and (width < 992px) {
+  .contact-us .section-heading {
+    margin-top: 0;
+  }
   .contact-us .container .row {
     flex-direction: column;
   }

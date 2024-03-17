@@ -175,11 +175,11 @@
 }
 @media screen and (width < 768px) {
   .home .slick-prev {
-    left: 20px;
+    left: 10px;
     z-index: 1;
   }
   .home .slick-next {
-    right: 20px;
+    right: 10px;
   }
 }
 @media screen and (width >= 1200px) {

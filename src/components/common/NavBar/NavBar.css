@@ -6,8 +6,12 @@ nav {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px !important;
   z-index: 2;
+  top: 51px;
+}
+nav.active {
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px !important;
 }
 nav .logo {
   line-height: 100px;
@@ -16,6 +20,8 @@ nav .logo {
   color: rgb(30, 30, 30);
   font-weight: 700;
   letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
 }
 nav .nav-main-content {
   display: flex;
@@ -87,6 +93,7 @@ nav .nav-trigger {
 @media screen and (width < 992px) {
   nav {
     padding: 0 60px;
+    top: 0;
   }
   nav .nav-links li {
     padding: 0 8px;
@@ -162,3 +169,4 @@ nav .nav-trigger {
     transform: rotate(-45deg) translateX(2px);
   }
 }
+

@@ -1,6 +1,9 @@
 .properties-page {
   padding-bottom: 150px;
 }
+.properties-page nav {
+  top: 0;
+}
 .properties-page .tabs {
   margin: 120px 0 70px;
 }

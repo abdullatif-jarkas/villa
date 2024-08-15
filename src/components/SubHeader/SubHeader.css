@@ -53,6 +53,20 @@
   font-size: 14px;
   transition: all 0.3s;
 }
+.facebook-icon:hover {
+  background-color: #4267B2 !important;
+}
+.twitter-icon:hover {
+  background-color: #1DA1F2 !important;
+}
+.linkedin-icon:hover {
+  background-color: #0077B5 !important;
+}
+.instagram-icon:hover {
+  background-image: linear-gradient(to bottom right, #405DE6, #E1306C) !important;
+  background-blend-mode: hard-light;
+}
+
 
 @media screen and (width < 992px) {
   .sub-header {

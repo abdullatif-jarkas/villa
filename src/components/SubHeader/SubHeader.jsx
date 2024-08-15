@@ -1,9 +1,16 @@
-import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaMap, FaTwitter } from 'react-icons/fa'
-import './SubHeader.css'
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaMap,
+  FaTwitter,
+} from "react-icons/fa";
+import "./SubHeader.css";
 
 const SubHeader = () => {
   return (
-    <div className='sub-header'>
+    <div className="sub-header">
       <div className="container">
         <div className="row">
           <ul className="sub-header-info">
@@ -18,22 +25,30 @@ const SubHeader = () => {
           </ul>
           <ul className="sub-header-social-links">
             <li>
-              <a href="#"><FaFacebook /></a>
+              <a href="#" className="facebook-icon">
+                <FaFacebook />
+              </a>
             </li>
             <li>
-              <a href="#"><FaTwitter /></a>
+              <a href="#" className="twitter-icon">
+                <FaTwitter />
+              </a>
             </li>
             <li>
-              <a href="#"><FaLinkedin /></a>
+              <a href="#" className="linkedin-icon">
+                <FaLinkedin />
+              </a>
             </li>
             <li>
-              <a href="#"><FaInstagram /></a>
+              <a href="#" className="instagram-icon">
+                <FaInstagram />
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SubHeader
+export default SubHeader;

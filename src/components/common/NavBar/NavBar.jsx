@@ -34,7 +34,7 @@ const NavBar = () => {
   }
 
   const changePosition = () => {
-    if(window.scrollY >= 51) {
+    if(window.scrollY >= 1) {
       setNavBar(true)
     } else {
       setNavBar(false)

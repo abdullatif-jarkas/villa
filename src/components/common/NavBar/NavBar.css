@@ -8,6 +8,7 @@ nav {
   background-color: #fff;
   z-index: 2;
   top: 51px;
+  transition: .1s;
 }
 nav.active {
   top: 0;
